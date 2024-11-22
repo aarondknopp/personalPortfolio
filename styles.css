@@ -1,0 +1,71 @@
+* {
+    background-color: oldlace;
+    display: ;
+  
+  }
+  
+  #welcome-section {
+  
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 250px) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+  
+  }
+  
+  .nav {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+  }
+  
+  li {
+    text-align: justify;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  #about {
+    font-family: Verdana;
+  }
+  
+  #value {
+  font-family: Bookman Old Style;
+  }
+  
+  #projects {
+  
+  }
+  
+  .project-tile {
+  
+  }
+  
+  #contact {
+  
+  }
