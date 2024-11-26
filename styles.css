@@ -1,71 +1,88 @@
 * {
-    background-color: oldlace;
-    display: ;
-  
-  }
-  
-  #welcome-section {
-  
-  }
-  
+  background-color: oldlace;
+
+}
+
+#welcome-section {
+  position: absolute;
+  display: flex;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 750px) {
   html {
-    box-sizing: border-box;
-    font-size: 100%;
-    scroll-behavior: smooth;
+    font-size: 90%;
   }
-  
-  @media (max-width: 500px) {
-    html {
-      font-size: 80%;
-    }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 75%;
   }
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+text-align: justify;
+}
+
+h4 {
+  text-align: justify;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+button {
+  display: flex;
+}
+
+button a:hover {
+  background: navy;
+  color: white;
+}
+
+li {
+  text-align: justify;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#about {
+  font-family: Verdana;
+}
+
+#value {
+font-family: Bookman Old Style;
+}
+
+#projects {
+
+}
+
+.project-tile {
+
+}
+
+footer {
+
+}
+
+footer > a {
   
-  @media (max-width: 250px) {
-    html {
-      font-size: 60%;
-    }
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  h3 {
-  
-  }
-  
-  .nav {
-    position: fixed;
-    display: flex;
-    top: 0;
-    left: 0;
-  }
-  
-  li {
-    text-align: justify;
-  }
-  
-  img {
-    display: block;
-    width: 100%;
-  }
-  
-  #about {
-    font-family: Verdana;
-  }
-  
-  #value {
-  font-family: Bookman Old Style;
-  }
-  
-  #projects {
-  
-  }
-  
-  .project-tile {
-  
-  }
-  
-  #contact {
-  
-  }
+}
